@@ -12,13 +12,25 @@ import OtherCompetancies from './components/othercompetancies';
 class App extends Component {
   render() {
     return (
-          <div>
-            <AboutMe/>
-            <CoreCompetancies/>
-            <OtherCompetancies/>
-            <CurrentInterests/>
-            <Hobbies/>
-            <Experience/>
+          <div class="blog">
+	    <section>
+		    <AboutMe/>
+	    </section>
+	    <section>
+		    <CoreCompetancies/>
+	    </section>
+	    <section>
+		    <OtherCompetancies/>
+	    </section>
+	    <section>
+		    <CurrentInterests/>
+	    </section>
+	    <section>
+		    <Hobbies/>
+	    </section>
+	    <section>
+		    <Experience/>
+	    </section>
           </div>
     );
   }
