@@ -1,4 +1,6 @@
 $margin: 0;
+$base-font-size: 1rem;
+
 body {
   margin: $margin;
   padding: 0;
@@ -10,3 +12,15 @@ body {
 	padding-right: 5%;
 }
 
+.p1{
+	font-size: $base-font-size + 3rem;
+}
+.p2{
+	font-size: $base-font-size + 2rem;
+}
+.p3{
+	font-size: $base-font-size + 1rem;
+}
+.p4{
+	font-size: $base-font-size;
+}

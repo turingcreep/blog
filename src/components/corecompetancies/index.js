@@ -3,8 +3,8 @@ import React from 'react';
 export default (props) => {
     return (
             <div>
-                <p> My core competancies are </p>
-                <ul>
+                <p className="p2"> My core competancies are </p>
+                <ul className="p3">
                     <li>Javascript</li>
                     <li>Typescript</li>
                     <li>Angular</li>

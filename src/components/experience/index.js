@@ -4,10 +4,11 @@ export default (props) => {
     return (
             <div>
             <section>
-                <p> I have a bachelors in engineering from Bhilai Institute of Technology, India (2011) </p>
+                <header><p className="p2"> Education </p></header>
+                <p className="p3"> I have a bachelors in engineering from Bhilai Institute of Technology, India (2011) </p>
             </section>
             <section>
-                <header> Experience summary </header>
+                <header><p className="p2"> Experience summary</p></header>
                 <div>
                     <div>
                         <div>Jan 2017 - Present</div>
